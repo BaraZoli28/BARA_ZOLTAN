@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(8, 80, 20);
+  }
+  
+  div.menu {
+    background-color: #088a1d;
+    overflow: hidden;
+    font-style: italic;
+    font-size: 50px;
+  }
+  div.menu a {
+    float: left;
+    display: block;
+    color: rgb(226, 249, 72);
+    text-align: justify;
+    padding: 39px 46px; /* A távolság a menüpontok között*/
+    text-decoration: none; /* Aláhúzások */
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+    font-size: 25px;
+  }
+  div.menu a:hover {
+    border-bottom: 3px solid rgb(72, 255, 0);
+  }
+  div.menu a:active {
+    border-bottom: 3px solid rgb(94, 255, 0);
+  }
+  .logo {
+    width: 175px;
+    position: static;
+    float: left;
+  }
+
+article{
+font-style: italic;
+color: antiquewhite;
+font-size: 25px;
+margin: 20px;
+word-spacing: 15px;
+}
+
+
+.ft{
+    margin: 10px;
+    width: 25%;
+    height:25%;
+    border-style: inset;
+    border-color: #088a1d;
+    float: left;
+}
+.en{
+    margin: 10px;
+    width:25% ;
+    height:25%;
+    border-style: inset;
+    border-color: #088a1d;
+    float: right;
+}
+.cim{
+    font-stretch: ultra-expanded;
+    text-align: center;
+}
+footer{
+    display: block;
+    margin: 10px;
+    padding-top: 10%;
+    text-align: center;
+}

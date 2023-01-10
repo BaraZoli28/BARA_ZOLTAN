@@ -1,0 +1,202 @@
+body {
+    background-color: rgb(8, 80, 20);
+  }
+  
+  div.menu {
+    background-color: #088a1d;
+    overflow: hidden;
+    font-style: italic;
+    font-size: 50px;
+  }
+  div.menu a {
+    float: left;
+    display: block;
+    color: rgb(226, 249, 72);
+    text-align: justify;
+    padding: 39px 46px; /* A távolság a menüpontok között*/
+    text-decoration: none; /* Aláhúzások */
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+    font-size: 25px;
+  }
+  div.menu a:hover {
+    border-bottom: 3px solid rgb(72, 255, 0);
+  }
+  div.menu a:active {
+    border-bottom: 3px solid rgb(94, 255, 0);
+  }
+  .logo {
+    width: 175px;
+    position: static;
+    float: left;
+  }
+  footer{
+    display: block;
+    margin: 10px;
+    padding-top: 10%;
+    text-align: center;
+}
+.dwnl {
+    display: block;
+    width: 25%;
+    background-color: #4ace55;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    padding: 12px 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.tsz{
+    
+    max-width:900px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cim_portf{
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.cim_portf h1{
+   
+   padding: 3px 0px;
+   border-bottom:1px solid #006400;
+   border-top:1px solid #006400;
+}
+
+
+
+.kartya {
+ background: green;
+ box-shadow: 0 0 20px rgba(0,0,0,0.4);
+ border-radius: 5px;
+ width: 420px;
+ padding: 20px;
+ text-align: center;
+ color: white;
+ background-color: #1F2124;
+ margin: 0px 15px 10px 15px;
+ border: 2px solid rgb(145, 255, 0);
+
+
+ }
+
+.title {
+   font-size: 25px;
+   margin-bottom: 15px;
+   font-family: 'Aclonica';
+ }
+
+ .focim{
+     
+     margin: 0px;
+ }
+
+ .alcim{
+      font-size: 17px;
+      margin: 0px;
+      font-style: italic;
+      color:#A0A0A0;
+      margin-top: 5px;
+ }
+ 
+
+  
+.btn {
+  
+ display: block;
+ width: 100%;
+ background-color:  #2c4760;
+ border: none;
+ text-decoration: none;
+ border-radius:5px;
+ color: white;
+ padding: 12px 10px;
+ cursor: pointer;
+ font-size: 20px;
+    
+ }
+ 
+ .btn i{
+     
+     margin: 0px 5px 0px 0px;
+ }
+ 
+ .btn:hover{
+     
+    background-color:  #23395B;
+ }
+ 
+
+.container {
+ position: relative;
+ width: 100%;
+
+}
+
+ 
+.overlay {
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ height: 100%;
+ width: 100%;
+ opacity: 0;
+ transition: .5s ease;
+
+
+}
+
+.container:hover .overlay {
+ opacity: 1;
+  cursor: pointer;
+}
+
+.text {
+
+}
+
+.container img {
+   
+   border-radius: 20%;
+   
+}
+
+.padding{
+   
+   padding-top: 15px;
+   
+}
+
+
+.tsz {
+    background: green;
+    box-shadow: 0 0 20px rgb(0 0 0 / 40%);
+    border-radius: 5px;
+    width: auto;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: #1F2124;
+    margin: 0px 15px 10px 15px;
+    border: 2px solid rgb(157, 255, 0);
+}
+
+.borito{
+  margin: 10px;
+}
+
+.zene{
+  font-style: italic, bold;
+  color: antiquewhite;
+  
+}
